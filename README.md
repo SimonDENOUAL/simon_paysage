@@ -4,4 +4,4 @@
 ## DSAA1 Num
 
 * [simon](https://simondenoual.github.io/simon_paysage/)
-* [simon](https://simondenoual.github.io/simon_paysage/paysage.html)
+* [PAYSAGE](https://simondenoual.github.io/simon_paysage/paysage.html)
