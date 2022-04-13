@@ -30,6 +30,13 @@
             <a-mixin id="walk" animation-mixer="clip: Run"></a-mixin>
         </a-assets>
 
+        <a-scene>
+            <a-assets>
+              <img id="sky" src="sky.jpg">
+            </a-assets>
+            <a-sky src="#sky"></a-sky>
+          </a-scene>
+
         <a-assets>
             <a-asset-item id="fox" src="./VILLECHAT.glb" scale=".1 .1 .1" ></a-asset-item>
             
@@ -51,7 +58,10 @@
         
 <a-entity camera position="0 0.5 0" currentposition
 look-controls wasd-controls="acceleration:10">
-
+<a-text id="txtlog" value="appuyez sur les touches 'e' et 'r' \n pour envoyer des event 'enter-0' et 'exit-0'" 
+    align="center" color="#FF0000" position="0 0 -1" rotation="0 0 0"
+    scale="0.25 0.25 0.25">
+</a-text>
 </a-entity>
 
 
