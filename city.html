@@ -38,11 +38,13 @@
           </a-scene>
 
         <a-assets>
-            <a-asset-item id="fox" src="./VILLECHAT.glb" position="-1 0 -2" color="#FF0000" ></a-asset-item>
+            <a-asset-item id="ville" src="./VILLECHAT.glb" position="-1 0 -2" color="#FF0000" ></a-asset-item>
             
         </a-assets>
 
- 
+        <a-entity id="ville" position="-1 0 -2" scale="1 1 1" 
+                gltf-model="#fox" >
+        </a-entity>
 
         <a-entity id="ouin" position="-1 0.4 -2" scale=".4 .4 .4" 
         gltf-model="#chien" mixin="survey" test
